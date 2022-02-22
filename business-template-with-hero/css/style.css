@@ -1,9 +1,8 @@
 body {
     font-family: 'EB Garamond', serif;
-    font-size: 125%;
+    font-size: 140%;
 }
 
-/* navbar */
 
 .navbar {
     width: 100%;
@@ -16,7 +15,7 @@ body {
 
 .navbar ul {
     list-style: none;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -34,7 +33,6 @@ body {
     border-radius: 0.5rem;
 }
 
-/* main content */
 
 main {
     width: 100%;
@@ -47,7 +45,8 @@ main {
     height: 100vh;
     background-image: url('../img/undraw_dreamer_re_9tua.svg');
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center center;
+    background-size: contain;
     text-align: center;
     padding-top: 20vh;
 }
@@ -56,6 +55,17 @@ main {
 .hero-fullheight p {
     margin-top: 1rem;
     text-shadow: 1px 1px white;
+}
+
+.hero-fullheight button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #B9FBC0;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
 }
 
 
@@ -72,7 +82,6 @@ main {
     margin-bottom: 1rem;
 }
 
-/* footer */
 
 footer {
     width: 100%;
