@@ -39,7 +39,7 @@ body {
 .hero-fullheight {
     height: 100vh;
     text-align: center;
-    margin-top: 50vh;
+    padding-top: 50vh;
 }
 
 .hero-fullheight h2 {
