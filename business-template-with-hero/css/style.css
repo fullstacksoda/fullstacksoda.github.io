@@ -1,1 +1,88 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 125%;
+}
 
+/* navbar */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #CFBAF0;
+    padding: 0.2rem 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.navbar h1 {
+    color: white;
+    padding: 0.2rem 0.5rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar ul li {
+    padding: 0.5rem 1rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+/* hero */
+
+.hero-fullheight {
+    height: 100vh;
+    text-align: center;
+    margin-top: 50vh;
+}
+
+.hero-fullheight h2 {
+    margin-top: 1rem;
+}
+
+/* main content */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+
+.main-content {
+    margin: 1rem 1rem;
+}
+.main-content h1{
+    margin-bottom: 1rem;
+}
+
+.main-content p {
+    margin-bottom: 1rem;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background: #98F5E1;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    padding: 0.5rem 1rem;
+}
