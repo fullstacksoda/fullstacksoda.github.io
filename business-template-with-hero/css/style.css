@@ -17,7 +17,7 @@ body {
 .navbar ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 1rem;
 }
 
